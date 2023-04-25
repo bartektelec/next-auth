@@ -122,10 +122,10 @@ export interface Account extends Partial<OpenIDTokenEndpointResponse> {
 
 /** The OAuth profile returned from your provider */
 export interface Profile {
-  sub?: string | null
-  name?: string | null
-  email?: string | null
-  image?: string | null
+  sub?: string
+  name?: string
+  email?: string
+  image?: string
 }
 
 /** [Documentation](https://authjs.dev/guides/basics/callbacks) */
